@@ -1,0 +1,3 @@
+dfnGen /dfnWorks/examples/Stress_effect/gen_4_user_ellipses.dat
+dfnFlow /nonre/none
+dfnTrans /none/none
