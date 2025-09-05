@@ -51,7 +51,7 @@ regions:
 
 orientationOption: 0
 
-h: 0.5
+h: 0.25
   /* Minimum fracture length scale(meters)
     Any fracture with a feature, such as and intersection, of less than h will be rejected. */
 
@@ -202,7 +202,7 @@ ebetaDistribution: {1}   /* Beta is the rotation around the polygon's normal
                     1 - constant angle (specefied below by "ebeta")    */                
     
     
-e_p32Targets: {0.1} 
+e_p32Targets: {0.2} 
 /* Elliptical families target fracture intensity per family.
 When using stopCondition = 1 (defined at the top of the input file), families will 
 be inserted untill the families desired fracture intensity has been reached. 
@@ -235,7 +235,7 @@ ephi: {2.38}   /* Ellipse fracture orientation.
 ebeta: {0}   /* rotation around the normal vector */
 
 
-ekappa: {0}  /*Parameter for the fisher distribnShaprutions. The bigger, the more 
+ekappa: {0.01}  /*Parameter for the fisher distribnShaprutions. The bigger, the more 
                         similar (less diverging) are the elliptical familiy's
                         normal vectors */                
 
