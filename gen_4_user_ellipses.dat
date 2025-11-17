@@ -202,7 +202,7 @@ ebetaDistribution: {1}   /* Beta is the rotation around the polygon's normal
                     1 - constant angle (specefied below by "ebeta")    */                
     
     
-e_p32Targets: {0.2} 
+e_p32Targets: {0.3} 
 /* Elliptical families target fracture intensity per family.
 When using stopCondition = 1 (defined at the top of the input file), families will 
 be inserted untill the families desired fracture intensity has been reached. 
@@ -265,7 +265,7 @@ eExpMin: {1}  //Mean value for Exponential  Distribution
 //===========================================================================
 //    Options Specific For Constant Size of ellipses (edistr=4):
 
-econst: {10}  // Constant radius, defined per family     
+econst: {20}  // Constant radius, defined per family     
                
 //===========================================================================
 // Options Specific For Ellipse Truncated Power-Law Distribution (edistr=2)
